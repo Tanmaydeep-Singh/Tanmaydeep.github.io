@@ -1,0 +1,99 @@
+:root{
+    --BG:#000;
+    --TextColor:#fff;
+    --Font: ;
+    --margin:10% 7%;
+}
+
+
+h5{
+    color:#fff;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: blanchedalmond;
+   
+    margin: 0;
+}
+
+
+.dark-mode{
+    background-color: blueviolet;
+    color: blanchedalmond;
+}
+
+a{
+    text-decoration: none;
+    color: var(--TextColor);
+}
+
+
+.Nav-bar{
+    text-align: left;
+    padding: 2% 0;
+  /*  border: Solid White; */
+    border-radius: 3%;
+}
+.links{
+    padding: 0 8px;
+    text-decoration: none;
+    font-style: none;
+    display: inline;
+    font-size: 2rem;
+}
+.Toggler{
+    float: right;
+    padding: 0 5px;
+    margin: 0 8px;
+    padding-right: 5%;
+    
+
+}
+
+.home{
+    margin: var(--margin);
+}
+/*Animation*/
+.name{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.ani-name{
+    transform: scaleX(2);
+   
+}
+
+/*ANIMATION ENDING*/
+
+.icon{
+    padding: 3%;
+    size: 10rem;
+    color: #fff;
+    text-decoration: none;
+}
+#Footer{
+  
+    text-align: center;
+    padding: 20px;
+}
+
+
+@media(max-width: 600px)
+{
+   .links{
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+}
+
+    .name{
+        font-size: 150%;
+    }
+
+
+}

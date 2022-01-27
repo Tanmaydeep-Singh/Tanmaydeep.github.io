@@ -85,6 +85,8 @@ a{
 
 @media(max-width: 600px)
 {
+   ul{padding: 0;}
+   
    .links{
     font-size: 1.2rem;
     text-align: center;

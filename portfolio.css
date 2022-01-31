@@ -81,6 +81,10 @@ a{
     text-align: center;
     padding: 20px;
 }
+.vid{
+    width:200px;
+    height: 200px;
+}
 
 
 @media(max-width: 600px)

@@ -1,105 +1,188 @@
-:root{
-    --BG:#000;
-    --TextColor:#fff;
-    --Font: ;
-    --margin:10% 7%;
+:root {
+  --BG: #000;
+  --TextColor: #fff;
+  --Font: ;
+  --margin: 10% 7%;
 }
 
-
-h5{
-    color:#fff;
+h5 {
+  color: #fff;
 }
 
-body{
+body {
+  overflow-x: hidden;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: blanchedalmond;
+
+  margin: 0;
+}
+
+.dark-mode {
+  background-color: blueviolet;
+  color: blanchedalmond;
+}
+
+a {
+  text-decoration: none;
+  color: var(--TextColor);
+}
+
+.Nav-bar {
+  text-align: left;
+  padding: 2% 0;
+  /*  border: Solid White; */
+  border-radius: 3%;
+}
+.links {
+  padding: 0 8px;
+  text-decoration: none;
+  font-style: none;
+  display: inline;
+  font-size: 2rem;
+}
+.Toggler {
+  float: right;
+  padding: 0 5px;
+  margin: 0 8px;
+  padding-right: 5%;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+}
+
+.home {
+  margin: var(--margin);
+}
+
+/*Animation*/
+.name {
     text-align: center;
     align-items: center;
-    justify-content: center;
-    background-color: #000;
-    color: blanchedalmond;
-   
-    margin: 0;
+  font-size: 5rem;
+  text-transform: uppercase;
 }
 
-
-.dark-mode{
-    background-color: blueviolet;
-    color: blanchedalmond;
+.ani-nameOne {
+  position: absolute;
+  left: 40%;
 }
 
-a{
-    text-decoration: none;
-    color: var(--TextColor);
+.ani-nameOne:hover {
+  top: 30%;
 }
 
-
-.Nav-bar{
-    text-align: left;
-    padding: 2% 0;
-  /*  border: Solid White; */
-    border-radius: 3%;
-}
-.links{
-    padding: 0 8px;
-    text-decoration: none;
-    font-style: none;
-    display: inline;
-    font-size: 2rem;
-}
-.Toggler{
-    float: right;
-    padding: 0 5px;
-    margin: 0 8px;
-    padding-right: 5%;
-    
-
+.ani-nameTwo {
+  position: absolute;
+  left: 43%;
 }
 
-.home{
-    margin: var(--margin);
-}
-/*Animation*/
-.name{
-    font-size: 5rem;
-    text-transform: uppercase;
+.ani-nameTwo:hover {
+  top: 30%;
 }
 
-.ani-name{
-    transform: scaleX(2);
-   
+.ani-nameThree {
+  position: absolute;
+  left: 46.5%;
 }
 
+.ani-nameThree:hover {
+  top: 30%;
+}
+
+.ani-nameFour {
+  position: absolute;
+  left: 50.5%;
+}
+
+.ani-nameFour:hover {
+  top: 30%;
+}
+
+.ani-nameFive {
+  position: absolute;
+  left: 55%;
+}
+
+.ani-nameFive:hover {
+  top: 30%;
+}
+
+.ani-nameSix {
+  position: absolute;
+  left: 58%;
+}
+
+.ani-nameSix:hover {
+  top: 30%;
+}
 /*ANIMATION ENDING*/
 
-.icon{
-    padding: 3%;
-    size: 10rem;
-    color: #fff;
-    text-decoration: none;
-}
-#Footer{
-  
-    text-align: center;
-    padding: 20px;
-}
-.vid{
-    width:200px;
-    height: 200px;
+.Disc {
+    position: absolute;
+    top: 47%;
+    left: 48%;
 }
 
+.block {
+  padding: 5% 0;
+  text-align: center;
+  align-items: center;
+}
 
-@media(max-width: 600px)
-{
-   ul{padding: 0;}
-   
-   .links{
+.icon {
+  padding: 3%;
+  size: 10rem;
+  color: #fff;
+  text-decoration: none;
+}
+#Footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.vid {
+  width: 200px;
+  height: 200px;
+}
+
+@media (max-width: 600px) {
+  ul {
+    padding: 0;
+  }
+
+  .links {
     font-size: 1.2rem;
     text-align: center;
     align-items: center;
+  }
+
+  .name {
+    font-size: 150%;
+  }
+  .image {
+    width: 50%;
+    height: 50%;
+  }
+
+  .ani-nameOne { position: relative; left:0 ;}
+  .ani-nameTwo {  position: relative; left: 0;}
+  .ani-nameThree {  position: relative; left: 0;}
+  .ani-nameFour {  position: relative; left: 0;}
+  .ani-nameFive {  position: relative; left: 0;}
+  .ani-nameSix {  position: relative; left: 0;}
+
+  
+.Disc {
+    position: relative;
+    top: 0;
+    left: 0;
 }
-
-    .name{
-        font-size: 150%;
-    }
-
-
 }

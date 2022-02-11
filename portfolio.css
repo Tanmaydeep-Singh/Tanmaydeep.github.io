@@ -146,9 +146,13 @@ ul{
     align-items: center;
   }
 
-  .home {
-    padding: 80% auto;
-    font-size: 250%;
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .home{
+   padding:  30% 0 0 0 ;
   }
   .image {
     width: 50%;

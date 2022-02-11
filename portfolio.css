@@ -16,18 +16,17 @@ body {
   justify-content: center;
   background-color: #000;
   color: blanchedalmond;
-
+  transition-delay: 1000ms;
   margin: 0;
-}
-
-.dark-mode {
-  background-color: blueviolet;
-  color: blanchedalmond;
 }
 
 a {
   text-decoration: none;
   color: var(--TextColor);
+}
+
+ul{
+  display: inline;
 }
 
 .Nav-bar {
@@ -43,13 +42,6 @@ a {
   display: inline;
   font-size: 2rem;
 }
-.Toggler {
-  float: right;
-  padding: 0 5px;
-  margin: 0 8px;
-  padding-right: 5%;
-}
-
 .image {
   width: 400px;
   height: 400px;
@@ -63,7 +55,7 @@ a {
 .name {
     text-align: center;
     align-items: center;
-  font-size: 5rem;
+  font-size: 5.5rem;
   text-transform: uppercase;
 }
 
@@ -72,8 +64,14 @@ a {
   left: 40%;
 }
 
-.ani-nameOne:hover {
+.ani-nameOne:hover, 
+.ani-nameTwo:hover,
+.ani-nameThree:hover,
+.ani-nameFour:hover,
+.ani-nameFive:hover,
+.ani-nameSix:hover {
   top: 30%;
+  color:aquamarine;
 }
 
 .ani-nameTwo {
@@ -81,17 +79,10 @@ a {
   left: 43%;
 }
 
-.ani-nameTwo:hover {
-  top: 30%;
-}
 
 .ani-nameThree {
   position: absolute;
   left: 46.5%;
-}
-
-.ani-nameThree:hover {
-  top: 30%;
 }
 
 .ani-nameFour {
@@ -99,17 +90,9 @@ a {
   left: 50.5%;
 }
 
-.ani-nameFour:hover {
-  top: 30%;
-}
-
 .ani-nameFive {
   position: absolute;
   left: 55%;
-}
-
-.ani-nameFive:hover {
-  top: 30%;
 }
 
 .ani-nameSix {
@@ -117,9 +100,6 @@ a {
   left: 58%;
 }
 
-.ani-nameSix:hover {
-  top: 30%;
-}
 /*ANIMATION ENDING*/
 
 .Disc {
@@ -140,6 +120,9 @@ a {
   color: #fff;
   text-decoration: none;
 }
+
+
+
 #Footer {
   position: fixed;
   left: 0;
@@ -148,12 +131,11 @@ a {
   color: white;
   text-align: center;
 }
-.vid {
-  width: 200px;
-  height: 200px;
-}
 
-@media (max-width: 600px) {
+
+
+
+@media (max-width: 800px) {
   ul {
     padding: 0;
   }
@@ -164,8 +146,9 @@ a {
     align-items: center;
   }
 
-  .name {
-    font-size: 150%;
+  .home {
+    padding: 80% auto;
+    font-size: 250%;
   }
   .image {
     width: 50%;
